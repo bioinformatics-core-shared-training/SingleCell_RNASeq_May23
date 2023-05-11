@@ -1,7 +1,7 @@
 # Introduction to single-cell RNA-seq data analysis
 
-### 18 Jan, 25 Jan, 1 Feb || 09:30 - 17:30
-#### Online (Zoom)
+### 18, 19, 22 May || 09:30 - 17:30
+#### In-person at the Craik Marshall training room ([map](https://goo.gl/maps/TF6cmuc2EjVhLTfG6))
 
 ![](UnivCambridge_ScRnaSeqIntro_Base/Images/uniOfCamCrukLogos.png)
 
@@ -10,16 +10,10 @@
 * Abigail Edwards - Bioinformatics Core, Cancer Research UK Cambridge Institute
 * Adam Reid - The Gurdon Institute, University of Cambridge
 * Ashley Sawle - Bioinformatics Core, Cancer Research UK Cambridge Institute
-* Chandra Chilamakuri - Bioinformatics Core, Cancer Research UK Cambridge Institute
 * Hugo Tavares - Bioinformatics Training Facility, University of Cambridge
+* Jon Price - Biochemistry Department, University of Cambridge
 * Katarzyna Kania - Genomics Core, Cancer Research UK Cambridge Institute
 * Roderik Kortlever - Dept. Biochemistry, University of Cambridge
-
-**Helpers:**
-
-* Jon Price - Biochemistry Department, University of Cambridge
-* Jiayin Hong - Biochemistry Department, University of Cambridge
-* Ulrika Yuan - Biochemistry Department, University of Cambridge
 
 
 ## Outline
@@ -46,7 +40,7 @@ of gene expression data, such as TSNE, UMAP and violin plots.
 > attempting these materials.
 > We recommend our [Introduction to R course](https://bioinformatics-core-shared-training.github.io/r-intro/)
 
-## Data set
+## Data
 
 * The course data is based on '[CaronBourque2020](https://www.nature.com/articles/s41598-020-64929-x)' 
   relating to pediatric leukemia, with four sample types, including:
@@ -62,22 +56,21 @@ of gene expression data, such as TSNE, UMAP and violin plots.
 
 ### Day 1
 
-Training helpers: Jon Price, Abbi Edwards  
-Training observers: Jiayin Hong, Ulrika Yuan
+Trainers: Ashley Sawle, Jon Price, Abbi Edwards, Katarzyna Kania, Roderik Kortlever
 
 * 09:30 - 09:40 **Welcome** 
 * 09:40 - 10:25 **Introduction to Single Cell Technologies** - Katarzyna Kania
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/01_Introduction.pdf)
 * 10:25 - 10:30 - **Break**
-* 10:30 - 10:40 **Preamble**: data set and workflow - Adam Reid
+* 10:30 - 10:40 **Preamble**: data set and workflow - Jon
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/02_PreambleSlides.html)
-* 10:40 - 12:00 Library structure, **cellranger** for alignment and cell calling - Adam Reid
+* 10:40 - 12:00 Library structure, **cellranger** for alignment and cell calling - Jon
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/03_CellRangerSlides.html) \([pdf](UnivCambridge_ScRnaSeqIntro_Base/Slides/03_CellRangerSlides.pdf)\)
     + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/03_CellRanger.html)
 * 12.00 - 12.30 **Loupe browser demo** - Roderik Kortlever
   + [Slides](https://drive.google.com/file/d/15aw6gXRRjs_5k4cFVI1qoLiJ8rTyxtaA/view?usp=sharing)
 * 12:30 - 13:30 **Lunch break**
-* 13:30 - 17:00 **QC and exploratory analysis** - Ashley Sawle
+* 13:30 - 17:00 **QC and exploratory analysis** - Abbi Edwards
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/04_QualityControlSlides.html) \([pdf](UnivCambridge_ScRnaSeqIntro_Base/Slides/04_QualityControlSlides.pdf)\)
     + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/04_Preprocessing_And_QC.html)
     + [Practical](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/04_Preprocessing_And_QC.Exercise.html)  
@@ -85,35 +78,33 @@ Training observers: Jiayin Hong, Ulrika Yuan
 
 ### Day 2
 
-Training helpers: Jon Price, Ash Sawle  
-Training observers: Jiayin Hong, Ulrika Yuan
+Trainers: Ashley Sawle, Adam Reid, Hugo Tavares
 
 * 09:30 - 09:40 **Recap** - 
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/00_Day1_Recap.html) 
-* 09:40 - 12:30 **Normalisation** - Adam Reid
+* 09:40 - 12:30 **Normalisation** - Adam
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/05_NormalisationSlides.html) \([pdf](UnivCambridge_ScRnaSeqIntro_Base/Slides/05_NormalisationSlides.pdf)\)
     + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/05_Normalisation.html)    
     + [Practical](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/05_Normalisation_exercises.html)
 * 12:30 - 13:30 **lunch break**
-* 13:30 - 15:25 **Feature selection and dimensionality reduction** - Abigail Edwards
+* 13:30 - 15:25 **Feature selection and dimensionality reduction** - Hugo
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/06_FeatureSelectionAndDimensionalityReduction_slides.html) \([pdf](UnivCambridge_ScRnaSeqIntro_Base/Slides/06_FeatureSelectionAndDimensionalityReduction_slides.pdf)\)
     + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/06_FeatureSelectionAndDimensionalityReduction.html)
 * 15:25 - 15:35 10 min **break**
-* 15:35 - 17:30 **Batch correction and data set integration** - Abigail Edwards
+* 15:35 - 17:30 **Batch correction and data set integration** - Ash 
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/07_DataIntegrationAndBatchCorrectionSlides.html) \([pdf](UnivCambridge_ScRnaSeqIntro_Base/Slides/07_DataIntegrationAndBatchCorrectionSlides.pdf)\) 
     + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/07_Dataset_Integration.html)
 
 ### Day 3
 
-Training helpers: Chandra Chilamakuri  
-Training observers: Jiayin Hong, Ulrika Yuan
+Trainers: Abbi Edwards, Adam Reid, Hugo Tavares
 
 * 09:30 - 09:40 Recap <!-- ?? -->
 * 09:40 - 11:05 **Clustering** - Adam Reid
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/08_ClusteringSlides.html)
     + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/08_Clustering.html)
 * 11:05 - 11:15 10 min **break** 
-* 11:15 - 12:30 **Identification of cluster marker genes** - Ashley Sawle
+* 11:15 - 12:30 **Identification of cluster marker genes** - Abbi
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/09_ClusterMarkerGenes.html)
     + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/09_Cluster_Marker_Genes.html)
 * 12:30 - 13:30 **lunch break**
@@ -129,9 +120,10 @@ Training observers: Jiayin Hong, Ulrika Yuan
   * Part 1: [Data pre-processing](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/101-seurat_part1.html)
   * Part 2: [Cell clustering and annotation](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/101-seurat_part2.html)
 
+
 ## Software Installation
 
-We will give you access to an online environment with all the necessary software installed. 
+You can make use of the computers in the Training Room, which are ready for use and have the necessary data & software installed.
 However, if you want to run the analysis on your own computer, you can follow these instructions. 
 
 * Download and install R: https://cloud.r-project.org/
@@ -145,6 +137,7 @@ However, if you want to run the analysis on your own computer, you can follow th
 
 For Cellranger, you will need to use a Linux machine. 
 See the [installation instructions from 10x Genomics](https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/installation). 
+
 
 ## Acknowledgments: 
 
