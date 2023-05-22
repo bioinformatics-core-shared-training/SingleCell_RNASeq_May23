@@ -99,16 +99,18 @@ Trainers: Ashley Sawle, Adam Reid, Hugo Tavares
 
 Trainers: Abbi Edwards, Adam Reid, Hugo Tavares
 
-* 09:30 - 09:40 Recap <!-- ?? -->
-* 09:40 - 11:05 **Clustering** - Adam Reid
+* 09:30 - 09:50 Recap <!-- Hugo -->
+* 09:50 - 11:00 **Clustering** - Adam Reid
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/08_ClusteringSlides.html)
     + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/08_Clustering.html)
-* 11:05 - 11:15 10 min **break** 
-* 11:15 - 12:30 **Identification of cluster marker genes** - Abbi
+* 11:00 - 11:10 10 min **break** 
+* 11:10 - 11:45 **Clustering** (continued)
+* 11:45 - 12:30 **Identification of cluster marker genes** - Abbi
     + [Slides](UnivCambridge_ScRnaSeqIntro_Base/Slides/09_ClusterMarkerGenes.html)
     + [Demonstration](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/09_Cluster_Marker_Genes.html)
 * 12:30 - 13:30 **lunch break**
-* 13:30 - 17.30 **Differential Expression and Abundance Analysis** - Hugo Tavares
+* 13:30 - 14:00 **Identification of cluster marker genes** (continued)
+* 14:00 - 17:30 **Differential Expression and Abundance Analysis** - Hugo Tavares
     + [Slides](https://docs.google.com/presentation/d/11kaW_sxUQ8S_cRV9I0g6H7420E9frcZz36q9cwIlXTI/edit?usp=sharing) 
     + [Demonstration - Differential Expression](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/10_Differential_Expression.html)
     + [Demonstration - Differential Abundance](UnivCambridge_ScRnaSeqIntro_Base/Markdowns/11_Differential_Abundance.html)
