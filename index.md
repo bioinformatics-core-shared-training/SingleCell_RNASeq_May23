@@ -46,7 +46,7 @@ of gene expression data, such as TSNE, UMAP and violin plots.
   relating to pediatric leukemia, with four sample types, including:
   * pediatric Bone Marrow Mononuclear Cells (PBMMCs)
   * three tumour types: ETV6-RUNX1, HHD, PRE-T  
-* The data used in the course can be [downloaded from Dropbox](https://www.dropbox.com/sh/qwxgat50tsg8m3r/AAAzQd5WXuEBGOFl3m4f5B1La?dl=1) (the file is 4.2GB compressed and XXGB when uncompressed, so make sure you have enough space on your computer). Please note that:
+* The data used in the course can be [downloaded from Dropbox](https://www.dropbox.com/sh/bl6iq1skjbrsg0h/AAD3W3kombJxw61fGYIT3HBca?dl=1) (the files take 2.9GB when uncompressed, so make sure you have enough space on your computer). Please note that:
   * these data have been processed for teaching purposes and are therefore not suitable for research use;
   * all the data is provided on our training machines, you don't need to download it to attend the course.
 
